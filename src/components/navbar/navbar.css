@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+nav {
+    @apply fixed z-20 w-full h-16 border-b top-0 flex flex-row justify-between items-center;
+    border-color: var(--nav-border);
+    background-color: var(--nav-bg) !important;
+}

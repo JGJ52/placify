@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.navbar-button {
+    @apply flex items-center justify-center min-w-14 h-10 p-4 m-2 rounded-md cursor-pointer gap-1 pl-2 pr-2;
+    color: var(--nav-button-color);
+    transition: background-color 200ms ease, color 200ms ease;
+    font-family: var(--navbar-content-font), sans-serif;
+}
+
+.navbar-button:hover {
+    background: var(--nav-button-background);
+    color: var(--nav-button-color-hover);
+}
+
+.navbar-button-background {
+    background: var(--nav-button-background);
+}
