@@ -14,4 +14,5 @@
 
 .navbar-button-background {
     background: var(--nav-button-background);
+    color: var(--nav-button-color-hover);
 }
